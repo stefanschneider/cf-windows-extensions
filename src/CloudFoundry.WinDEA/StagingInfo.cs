@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using YamlDotNet.RepresentationModel;
-using YamlDotNet.RepresentationModel.Serialization;
+using YamlDotNet.Serialization;
 
 namespace CloudFoundry.WinDEA
 {

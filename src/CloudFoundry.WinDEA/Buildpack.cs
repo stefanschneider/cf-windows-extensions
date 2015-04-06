@@ -9,7 +9,7 @@
     using System.Threading;
     using CloudFoundry.Utilities;
     using YamlDotNet.RepresentationModel;
-    using YamlDotNet.RepresentationModel.Serialization;
+    using YamlDotNet.Serialization;
 
     public class Buildpack
     {
@@ -138,13 +138,13 @@
 
     public class ReleaseInfo
     {
-        [YamlAlias("default_process_type")]
+        [YamlMember(Alias = "default_process_type")]
         public DefaultProcessType defaultProcessType { get; set; }
     }
 
     public class DefaultProcessType
     {
-        [YamlAlias("web")]
+        [YamlMember(Alias="web")]
         public string Web { get; set; }
     }
 }
