@@ -37,6 +37,11 @@ Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "DEAInstaller", "src\DEAInst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFoundry.AspDotNetLogging", "src\CloudFoundry.AspDotNetLogging\CloudFoundry.AspDotNetLogging.csproj", "{EFBDC205-6578-47AA-A53C-DFFC5A39CA1F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{300D6EB9-61E0-48AA-B9D2-D3DADC526BED}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
